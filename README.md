@@ -21,7 +21,7 @@ This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stag
 | `0000`   | ADD                 | `result = A + B`                           |
 | `0001`   | SUB                 | `result = A - B`                           |
 | `0010`   | AND                 | `result = A & B`                           |
-| `0011`   | OR                  | result = A | B                          |
+| `0011`   | OR                  | `result = A or B`                          |
 | `0100`   | XOR                 | `result = A ^ B`                           |
 | `0101`   | NOT                 | `result = ~A` (ignores B)                  |
 | `0110`   | Logical Left Shift  | `result = A << 1`                          |
