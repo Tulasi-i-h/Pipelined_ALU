@@ -21,7 +21,7 @@ This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stag
 | `0000`   | ADD                 | `result = A + B`                           |
 | `0001`   | SUB                 | `result = A - B`                           |
 | `0010`   | AND                 | `result = A & B`                           |
-| `0011`   | OR                  | `result = A or B`                           |
+| `0011`   | OR                  | result = A | B                          |
 | `0100`   | XOR                 | `result = A ^ B`                           |
 | `0101`   | NOT                 | `result = ~A` (ignores B)                  |
 | `0110`   | Logical Left Shift  | `result = A << 1`                          |
@@ -34,7 +34,7 @@ This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stag
 
 The ALU uses a **3-stage pipeline**:
 
-1. **Fetch**: Capture inputs (`A`, `B`) and opcode
+1. **Fetch**: Capture inputs (A, B) and opcode
 2. **Execute**: Perform the selected operation using the respective submodule
 3. **Write-back**: Store the result and update the status flags
 
