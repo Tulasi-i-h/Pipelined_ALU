@@ -1,10 +1,10 @@
-# 🧠 16-bit Pipelined ALU
+#  16-bit Pipelined ALU
 
 This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stage pipeline** architecture in Verilog HDL. The design is simulation-only and uses modular sub-blocks for each ALU operation. A testbench demonstrates functionality and pipeline behavior via waveform visualization.
 
 ---
 
-## ✅ Features
+##  Features
 
 - **3-stage pipelined ALU**: Fetch → Execute → Write-back
 - **Supports 9 operations** using a 4-bit `opcode`
@@ -14,7 +14,7 @@ This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stag
 
 ---
 
-## 🔢 Supported Operations and Opcodes
+##  Supported Operations and Opcodes
 
 | Opcode   | Operation           | Description                                |
 |----------|---------------------|--------------------------------------------|
@@ -30,7 +30,7 @@ This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stag
 
 ---
 
-## 🧠 Pipeline Stages & Delay Explanation
+##  Pipeline Stages & Delay Explanation
 
 The ALU uses a **3-stage pipeline**:
 
@@ -42,7 +42,7 @@ Due to pipelining, each result appears **after 2 clock cycles**. This design mim
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - Verilog HDL
 - Vivado Simulator / ModelSim
